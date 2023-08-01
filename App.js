@@ -1,13 +1,14 @@
-import React from 'react';
-import './index.css';
+import React, { Component } from 'react';
 
-class Counter extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: 0,
-    };
-  }
+ 
+
+class Counter extends Component {
+
+  state = {
+
+    count: 0,
+
+  };
 
   handleIncrement = () => {
     // Increment the count by 1
